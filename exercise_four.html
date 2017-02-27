@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Simple HTML document</title>
+    <title>Exercise 4</title>
   </head>
-  <body>
+<body>
   <ul class="topnav">
-  <li><a href="exercise_one.html">Exercise 1</a></li>
-  <li><a href="exercise_two.html">Exercise2</a></li>
-  <li><a href="exercise_three.html">Exercise3</a></li>
-  <li><a class="active" href="exercise_four.html">Exercise4</a></li>
-  <li><a href="exercise_five.html">Exercise5</a></li>
-  <li class="right"><a href="exercise_six.html">Exercise6</a></li>
-</ul>
-    <canvas id="drawingCanvas" style="background-color:#f0f0f0" width="578" height="300">
-    </canvas>
-    <h3>Actions</h3>
-    <script src="script_four.js"></script>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="exercise_one.html">Exercise 1</a></li>
+    <li><a href="exercise_two.html">Exercise2</a></li>
+    <li><a href="exercise_three.html">Exercise3</a></li>
+    <li><a class="active" href="exercise_four.html">Exercise4</a></li>
+    <li><a href="exercise_five.html">Exercise5</a></li>
+    <li><a href="exercise_six.html">Exercise6</a></li>
+    <li class="right"><a href="about.html">About</a></li>
+  </ul>
+  <h2>Simple Drawing canvas</h2>
+ <div class="wrapper">
+    <canvas id="helpCanvas" width= "600pt" height="600pt" style="border: 1px solid black;"></canvas>
+    <canvas id="drawingCanvas"  width= "600pt" height="600pt" style="border: 1px solid black;"></canvas>
+  </div>
+</canvas>
+  <h3>Actions</h3>
+   <script src="script_four.js"></script>
     <button onclick="clearCanvas()">Clear</button>
-    <h3>Shapes</h3>
+  <h3>Shapes</h3>
     <button onclick="setDrawingMode(LINE)">Line</button>
     <button onclick="setDrawingMode(RECTANGLE)">Rectangle</button>
-
-  </body>
+ </body>
 </html>
+<!-- Published 27 FEB 2017 by Prakash Acharya-->

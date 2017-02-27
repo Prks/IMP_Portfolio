@@ -44,3 +44,14 @@ ul.topnav li.right {float: right;}
 img {
   margin: 1%;
 }
+.wrapper {
+ position: relative;
+ width: 600px;
+height: 600px;
+}
+.wrapper canvas {
+position: absolute;
+top: 0;
+left: 0;
+margin-top: 20px;
+}
