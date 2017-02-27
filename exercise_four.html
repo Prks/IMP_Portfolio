@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Simple HTML document</title>
+  </head>
+  <body>
+  <ul class="topnav">
+  <li><a href="exercise_one.html">Exercise 1</a></li>
+  <li><a href="exercise_two.html">Exercise2</a></li>
+  <li><a href="exercise_three.html">Exercise3</a></li>
+  <li><a class="active" href="exercise_four.html">Exercise4</a></li>
+  <li><a href="exercise_five.html">Exercise5</a></li>
+  <li class="right"><a href="exercise_six.html">Exercise6</a></li>
+</ul>
+    <canvas id="drawingCanvas" style="background-color:#f0f0f0" width="578" height="300">
+    </canvas>
+    <h3>Actions</h3>
+    <script src="script_four.js"></script>
+    <button onclick="clearCanvas()">Clear</button>
+    <h3>Shapes</h3>
+    <button onclick="setDrawingMode(LINE)">Line</button>
+    <button onclick="setDrawingMode(RECTANGLE)">Rectangle</button>
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name list app</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body {
+	margin-left: 8%;
+	margin-right: 8%;
+	background-color: #F1FAC8;
+	}
+	</style>
+	<script type="text/javascript">
+	function printName(){
+	var names = document.getElementById("name");
+	var toPrint = document.getElementById("after");
+	toPrint.innerHTML +="<p>" + names.value + "</p>";
+	}
+	</script>
+
+</head>
+<body>
+<h1>Here you can write names using JavaScript</h1>
+	Name to add:
+	<input type="text" id="name" placeholder="Write name here">
+	<button onclick="printName();">Submit</button>
+<p>Names: </p>
+<div id="after">
+	<!-- name gets written here-->
+</div>
+</body>
+</html>
